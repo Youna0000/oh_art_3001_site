@@ -1,0 +1,68 @@
+//style.css2
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* General body styles */
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #222;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #3366cc;
+}
+
+header p {
+  color: #555;
+}
+
+header img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Homework section */
+.homework {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.homework img {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.homework p a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3366cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.homework p a:hover {
+  background-color: #254a99;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
